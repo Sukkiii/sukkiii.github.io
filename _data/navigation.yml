@@ -1,12 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+  - title: "Home"
+    url: ""
+  - title: "Vue-story"
+    url: /vue-story
+  - title: "React-story"
+    url: /react-story/
+  - title: "Javascript-story"
+    url: /javascript-story/
+  - title: "Honey-tip"
+    url: /honey-tip/
+  - title: "Dairy"
+    url: "/dairy"
