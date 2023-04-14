@@ -18,7 +18,7 @@ tags:
 
 ## 뷰 인스턴스 속성
 
-'''html
+```html
 <html>
     <head>
         <title>Vue Sample</title>
@@ -38,7 +38,7 @@ tags:
         </script>
     </body>
 </html>
-'''
+```
 
 'Hello Vue.js!' 텍스트를 화면에 표시하기 위해서 new Vue()로 뷰 인스턴스를 생성하였고, 인스턴스 안에 el 속성으로 뷰 인스턴스가 그려질 지점을 지정하고, data속성에 message 값을 정의하여 화면에 그 값을 연결하였다.
 
