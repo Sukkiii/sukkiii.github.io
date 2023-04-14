@@ -1,10 +1,11 @@
 ---
+title: "Vue끄적"
 layout: archive
+permalink: categories/vue
+author_profile: true
+sidebar_main: true
 ---
 
-{{ content }}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
-</div>
+{% assign posts = site.categories.vue %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
